@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GeloSantiago">
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src=".https://cdn2.iconfinder.com/data/icons/luchesa-part-3/128/Programming-1024.png" alt="Nyebe" width="130" height="100">
   </a>
   <h3 align="center">Seatwork 3: Footer & Header</h3>
 </div>
