@@ -1,0 +1,160 @@
+.footer-4{
+    width: 90%;
+    height: auto;
+    background-color: #3F32D6;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0rem 0rem 0rem;
+    gap: 1rem;
+}
+
+.top-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+
+.top-content .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.top-content .left .get-touch{
+    color: #D28C24;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.top-content .left  .get-info{
+    width: 30%;
+    color: #ffff;
+}
+
+/* right */
+
+.top-content .right{
+    display: flex;
+    gap: 2rem;
+}
+
+.top-content .right .circle{
+    background-color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    position: relative;
+}
+
+/* mid */
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 2rem 5rem 0rem 5rem;
+}
+
+ .mid .list-icon-social{
+    display: flex;
+    gap: 2rem;
+ }
+
+
+ .mid .list-icon-social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    text-decoration: none;
+     background-color: #ffffff;
+     border-radius: 50px;
+ }
+
+ .mid .list-icon-social a svg{
+   
+    color: #D28C24;
+
+
+ }
+
+
+.mid .header-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mid .header-list a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.mid .header-list a:hover{
+    color: #D28C24;
+    scale: 1.1;
+    font-weight: 500;
+
+}
+
+
+
+/* bottom */
+.footer-4 .bottom{
+    background-color: #D28C24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0.5rem;
+}
+
+@media screen and (max-width:1450px) {
+    .top-content .left  .get-info{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .top-content .left  .get-info{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .top-content{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+     .top-content .right{
+        display: none;
+        
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .mid{
+        align-items: flex-start;
+        gap: 1rem;
+        flex-direction: column;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+
+    .top-content .left  .get-info{
+        width: 90%;
+    }
+
+    .top-content{
+        padding: 0 2rem;
+    }
+}
