@@ -1,0 +1,259 @@
+.footer-3{
+    width: 90%;
+    height: auto;
+    background-color: #3F32D6;
+    display: flex;
+
+    flex-direction: column;
+    padding: 6rem 0rem 3rem 0rem;
+    gap: 1rem;
+  
+}
+.footer-3 .line{
+    background-color: #fff;
+    width: 90%;
+    height: 2px;
+    left: 5%;
+    position: relative;
+}
+
+.footer-3 .top-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+/* left */
+
+.top-content .left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.top-content .left .first{
+    color: #D28C24;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.top-content .left .second, .top-content .left .third{
+    color: #fff;
+    width: 40%;
+}
+
+.top-content .left .fourt{
+    display: flex;
+    gap: 2rem;
+}
+
+.top-content .left .fourt svg{
+    color: #fff;
+}
+
+/* right */
+
+.footer-3 .top-content .right{
+    display: flex;
+    gap: 10rem;
+}
+.top-content .right .head{
+    color: #D28C24;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+/* first */
+
+.top-content .right .first{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.top-content .right .first .list{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.top-content .right .first .list a{
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   position: relative;
+}
+
+.top-content .right .first .list a::after{
+    position: absolute;
+    content: '';
+    background-color: #D28C24;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    transition: 0.3s;
+}
+
+.top-content .right .first .list a:hover::after{
+    width: 100%;
+}
+
+/* second */
+
+
+.top-content .right .second{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.top-content .right .second .list{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.top-content .right .second .list a{
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   position: relative;
+}
+
+.top-content .right .second .list a::after{
+    position: absolute;
+    content: '';
+    background-color: #D28C24;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    transition: 0.3s;
+}
+
+.top-content .right .second .list a:hover::after{
+    width: 100%;
+}
+
+
+/* third */
+
+
+.top-content .right .third{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.top-content .right .third .list{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.top-content .right .third .list a{
+   color: #fff;
+   text-decoration: none;
+   font-weight: 500;
+   position: relative;
+}
+
+.top-content .right .third .list a::after{
+    position: absolute;
+    content: '';
+    background-color: #D28C24;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    transition: 0.3s;
+}
+
+.top-content .right .third .list a:hover::after{
+    width: 100%;
+}
+
+@media screen and (max-width:1400px) {
+    .top-content .left .second, .top-content .left .third{
+        color: #fff;
+        width: 90%;
+    }
+  
+}
+
+@media screen and (max-width:1800px){
+    .footer-3 .top-content .right{
+        display: flex;
+        gap: 5rem;
+    }
+   
+}
+
+
+@media screen and (max-width:1650px){
+ .top-content .left .second, .top-content .left .third{
+        color: #fff;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+
+    .footer-3 .top-content{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .footer-3 .top-content .right{
+        display: flex;
+        gap: 10rem;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:1300px){
+    .footer-3 .top-content .right{
+        gap: 5rem;
+
+    }
+}
+
+@media screen and (max-width:800px){
+    .top-content .left .second, .top-content .left .third{
+        color: #fff;
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width:700px){
+
+
+    .top-content .right .first .list, .top-content .right .second .list, .top-content .right .third .list{
+        gap: 0rem;
+    }
+    
+    .footer-3 .top-content .right{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .footer-3 .top-content{
+        padding: 2rem;
+    }
+
+}
+
+
+
+
+

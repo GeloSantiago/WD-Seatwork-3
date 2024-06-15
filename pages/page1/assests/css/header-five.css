@@ -1,0 +1,54 @@
+.card-header-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    gap: 1rem;
+    padding-bottom: 5rem;
+ 
+}
+
+.header-5{
+    width: 90%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #3F32D6;
+    padding: 0rem 3rem;
+    box-shadow: 3px 5px 10px #3F32D6;
+
+}
+
+.button-5{
+    color: #fff;
+    background-color: #D28C24;
+    width: 10rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-left: auto;
+    right: 1rem;
+    position: relative;
+
+}
+
+#svg-icon{
+    color: #fff;
+    width: 3rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1270px){
+    .button-5{
+        display: none;
+    }
+}
+
+
